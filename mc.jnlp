@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.5+" codebase="https://10.10.10.10:8888" href="Secure/Local/console/r230901/mc.jnlp" version="2.0">
+    <information>
+        <title>Launch the Management Console with Java Web Start</title>
+        <vendor>Symantec Corporation</vendor>
+    </information>
+    <security>
+        <all-permissions />
+    </security>
+    <resources>
+        <java version="1.8+" href="http://java.sun.com/products/autodl/j2se"
+         java-vm-args="--add-opens=java.base/java.net=ALL-UNNAMED --add-exports=jdk.javaws/com.sun.jnlp=ALL-UNNAMED --add-opens=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-opens=jdk.deploy/com.sun.deploy.net.protocol.jar=ALL-UNNAMED --add-exports=jdk.deploy/com.sun.deploy.security=ALL-UNNAMED --add-opens=jdk.deploy/com.sun.deploy.net.protocol.https=ALL-UNNAMED --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED --add-exports=java.base/sun.security.x509=ALL-UNNAMED --add-exports=java.base/sun.net.util=ALL-UNNAMED"/>
+        <jar href="Secure/Local/console/r230901/loader.jar" main="true" />
+        <jar href="Secure/Local/console/r230901/applets.jar" />
+        <jar href="Secure/Local/console/r230901/sgcommon.jar" />
+        <jar href="Secure/Local/console/r230901/VPM.jar" />
+        <jar href="Secure/Local/console/r230901/vpmhelp.jar"/>
+    </resources>
+    <application-desc main-class="bluecoat.sgos.ui.loader.SG_UIAppJavaWebStart" />
+</jnlp>
