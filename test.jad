@@ -1,0 +1,7 @@
+MIDlet-Name: Hello World
+MIDlet-Version: 1.0
+MIDlet-Vendor: Jim
+MIDlet-Description: My First MIDlet suite
+MIDlet-1: HelloWorld, /greeting/myLogo.png, greeting.HelloWorld
+MIDlet-Jar-URL: HelloWorld.jar
+MIDlet-Jar-Size: 1428
